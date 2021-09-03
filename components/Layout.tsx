@@ -35,11 +35,11 @@ function Head(): ReactElement {
   return (
     <HTMLHead>
       {/* Primary Meta Tags */}
-      <title>Loot</title>
+      <title>EtherWeeds</title>
       <meta name="title" content="Loot" />
       <meta
         name="description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="EtherWeeds is materialized chillness stored on chain."
       />
 
       {/* OG + Faceook */}
@@ -48,7 +48,7 @@ function Head(): ReactElement {
       <meta property="og:title" content="Loot" />
       <meta
         property="og:description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="EtherWeeds is materialized chillness stored on chain."
       />
       <meta property="og:image" content="https://lootproject.com/meta.png" />
 
@@ -58,7 +58,7 @@ function Head(): ReactElement {
       <meta property="twitter:title" content="Loot" />
       <meta
         property="twitter:description"
-        content="Loot is randomized adventurer gear generated and stored on chain."
+        content="EtherWeeds is materialized chillness stored on chain."
       />
       <meta property="twitter:image" content="https://lootproject.com/meta.png" />
 
@@ -138,7 +138,7 @@ function Footer(): ReactElement {
       <p>
         This website is{" "}
         <a
-          href="https://github.com/lootproject/website"
+          href="https://github.com/apetogether/website"
           target="_blank"
           rel="noopener noreferrer"
         >
