@@ -38,7 +38,7 @@ export default function Home(): ReactElement {
 
           {/* CTA Description */}
           <p>
-            EtherWeeds is materialized chillness stored on chain.
+            minty freshness.
           </p>
         </div>
 
