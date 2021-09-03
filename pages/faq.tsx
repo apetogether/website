@@ -50,7 +50,7 @@ export default function FAQ(): ReactElement {
               contract
             </a>
             . Connect your wallet by selecting "Connect to Web3" and call the "Mint" function
-            with <minting mechanism>.
+            with minting mechanism.
           </p>
         </div>
 
