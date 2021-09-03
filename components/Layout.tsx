@@ -36,7 +36,7 @@ function Head(): ReactElement {
     <HTMLHead>
       {/* Primary Meta Tags */}
       <title>EtherWeeds</title>
-      <meta name="title" content="Loot" />
+      <meta name="title" content="EtherWeeds" />
       <meta
         name="description"
         content="EtherWeeds is materialized chillness stored on chain."
@@ -44,23 +44,23 @@ function Head(): ReactElement {
 
       {/* OG + Faceook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://www.lootproject.com/" />
-      <meta property="og:title" content="Loot" />
+      <meta property="og:url" content="https://www.etherweeds.com/" />
+      <meta property="og:title" content="EtherWeeds" />
       <meta
         property="og:description"
         content="EtherWeeds is materialized chillness stored on chain."
       />
-      <meta property="og:image" content="https://lootproject.com/meta.png" />
+      <meta property="og:image" content="https://etherweeds.com/meta.png" />
 
       {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://www.lootproject.com/" />
-      <meta property="twitter:title" content="Loot" />
+      <meta property="twitter:url" content="https://www.etherweeds.com/" />
+      <meta property="twitter:title" content="EtherWeeds" />
       <meta
         property="twitter:description"
         content="EtherWeeds is materialized chillness stored on chain."
       />
-      <meta property="twitter:image" content="https://lootproject.com/meta.png" />
+      <meta property="twitter:image" content="https://etherweeds.com/meta.png" />
 
       {/* Font */}
       <link rel="preconnect" href="https://fonts.googleapis.com" />
