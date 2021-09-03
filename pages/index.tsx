@@ -10,11 +10,6 @@ export default function Home(): ReactElement {
   // Quicklinks to render
   const quicklinks: Record<string, string>[] = [
     { name: "OpenSea", url: "https://opensea.io/collection/lootproject" },
-    { name: "Discord", url: "https://discord.gg/NXEntTSHgy" },
-    {
-      name: "Twitter",
-      url: "https://twitter.com/lootproject",
-    },
     {
       name: "Contract",
       url: "https://etherscan.io/address/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7",
@@ -35,7 +30,7 @@ export default function Home(): ReactElement {
       <div>
         <div className={styles.home__cta}>
           {/* CTA title */}
-          <h1>Loot</h1>
+          <h1>Ether Weeds</h1>
 
           {/* Quicklinks */}
           <ul>
@@ -52,10 +47,7 @@ export default function Home(): ReactElement {
 
           {/* CTA Description */}
           <p>
-            Loot is randomized adventurer gear generated and stored on chain.
-            <br /> Stats, images, and other functionality are intentionally
-            omitted for others to interpret. <br /> Feel free to use Loot in any
-            way you want.
+            Minty Freshness..
           </p>
         </div>
 
