@@ -16,15 +16,6 @@ export default function Home(): ReactElement {
     },
   ];
 
-  /**
-   * Selects 3 random bags from defaultBags
-   * @returns {Record<string, string>[]} randomized bags
-   */
-  const getRandomThreeBags = () => {
-    const shuffled = defaultBags.sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, 3);
-  };
-
   return (
     <Layout>
       <div>
@@ -53,28 +44,10 @@ export default function Home(): ReactElement {
 
         {/* Rendering sample loot bags */}
         <div className={styles.home__feature}>
-          <span>Example Bags:</span>
-          {getRandomThreeBags().map(({ id, attributes }, i) => (
-            // For each loot bag, render item and link to OpenSea
-            <a
-              href={`https://opensea.io/assets/0xff9c1b15b16263c61d017ee9f65c50e4ae0113d7/${id}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              key={i}
-              className={styles.home__bag}
-            >
-              <div className={styles.home__bag_attributes}>
-                <span>#{id}</span>
-                <ul>
-                  {attributes.map((attribute, i) => (
-                    <li key={i}>
-                      <span>{attribute}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </a>
-          ))}
+          <span>Example Weeds:</span>
+          <img src="../utils/ethw220.jpg" alt="220" width="420" height="420">
+          <img src="../utils/ethw273.jpg" alt="273" width="420" height="420">
+          <img src="../utils/ethw322.jpg" alt="322" width="420" height="420">
         </div>
       </div>
     </Layout>
