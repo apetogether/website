@@ -88,7 +88,6 @@ function Header() {
   // All links
   const links = [
     { name: "FAQ", path: "/faq" },
-    { name: "Resources", path: "/resources" },
   ];
 
   return (
