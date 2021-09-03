@@ -45,9 +45,9 @@ export default function Home(): ReactElement {
         {/* Rendering sample loot bags */}
         <div className={styles.home__feature}>
           <span>Example Weeds:</span>
-          <img src="/utils/ethw220.jpg" alt="220" width="420" height="420" />
-          <img src="/utils/ethw273.jpg" alt="273" width="420" height="420" />
-          <img src="/utils/ethw322.jpg" alt="322" width="420" height="420" />
+          <img src="/ethw220.jpg" alt="220" width="420" height="420" />
+          <img src="/ethw273.jpg" alt="273" width="420" height="420" />
+          <img src="/ethw322.jpg" alt="322" width="420" height="420" />
         </div>
       </div>
     </Layout>
