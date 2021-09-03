@@ -95,7 +95,7 @@ function Header() {
       {/* Main logo */}
       <div className={styles.header__logo}>
         <Link href="/">
-          <a>Loot</a>
+          <a>Weed</a>
         </Link>
       </div>
 
